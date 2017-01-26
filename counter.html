@@ -1,20 +1,32 @@
 <html>
-<head>
-  <title>Knit Fugit</title>
-<script type="text/javascript" src="script.js"></script>
-<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-<div class="box">
-  <label for="qty"><abbr title="Quantity">Stitch/Row Counter</abbr></label>
-  <hr>
-<input id="qty" value="0" />
-<button id="down" onclick="modify_qty(-1)">-</button>
-<button id="up" onclick="modify_qty(1)">+</button>
-  <br>
-  <button id="reset" onclick="returnZ()">Reset</button>
-</div>
-</body>
+  <head>
+    <title>
+      Knit Fugit
+    </title>
+    <script type="text/javascript" src="script.js">
+    </script>
+    <!-- Color palette: http://www.colourlovers.com/palette/656827/fresh_apples?sAC=1 -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="box">
+      <label for="qty">
+        <abbr title="Quantity">
+          Stitch/Row Counter
+        </abbr>
+      </label>
+      <hr>
+    <input id="qty" value="0" />
+    <button id="down" onclick="modify_qty(-1)">
+      -
+    </button>
+    <button id="up" onclick="modify_qty(1)">
+      +
+    </button>
+    <br>
+    <button id="reset" onclick="returnZ()">
+      Reset
+    </button>
+    </div>
+  </body>
 </html>
-
-<!-- http://www.colourlovers.com/palette/656827/fresh_apples?sAC=1 color palette here-->
